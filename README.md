@@ -13,8 +13,8 @@ environment you are running this script in.
 
 
 Script assumes that the csv file has 4 columns with the following data types:
-user (Text)
-'''timestamp (Text)
+'''user (Text)
+timestamp (Text)
 hours (Float)
 Project (Text) 
 '''
@@ -29,9 +29,9 @@ environment you are running this script in.
 
 Script has two functions for querying data
 1. Checkins : displays all data of all users from chekins db
----- parameter: none
+  - Parameter: none
 2. Checkins_single_user: Displays all data of a specific user from checkins db
----- Parameter: user (string)
+  - Parameter: user (string)
 
 Returns
 On Success : 200
