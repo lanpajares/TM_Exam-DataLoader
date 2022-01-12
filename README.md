@@ -11,13 +11,21 @@ This script accepts file in CSV format, cleans up data to be ingested  and loads
 This script requires that 'sqlite3', `pandas` be installed within the Python
 environment you are running this script in.
 
-
 Script assumes that the csv file has 4 columns with the following data types:
 '''user (Text)
 timestamp (Text)
 hours (Float)
 Project (Text) 
 '''
+
+This script extensively uses Pandas library for:
+- file read/write
+- data extraction/manipulation
+
+The script uses sqlite to: 
+- create db
+- establish/end connection to database 
+querying data 
 
 #### Web Service
 
