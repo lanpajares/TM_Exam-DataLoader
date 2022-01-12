@@ -34,7 +34,9 @@ Script has two functions for querying data
   - Parameter: user (string)
 
 Returns
-On Success : 200
-On Failure: 500
+On Success:
+--200
+On Failure:
+--500
 
 
