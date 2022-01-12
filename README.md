@@ -12,7 +12,8 @@ This script requires that 'sqlite3', `pandas` be installed within the Python
 environment you are running this script in.
 
 Script assumes that the csv file has 4 columns with the following data types:
-'''user (Text)
+'''
+user (Text)
 timestamp (Text)
 hours (Float)
 Project (Text) 
@@ -26,6 +27,8 @@ The script uses sqlite to:
 - create db
 - establish/end connection to database 
 querying data 
+
+The script generates/writes to a csv file the cleaned version of the ingested data. 
 
 #### Web Service
 
@@ -48,3 +51,7 @@ On Failure:
 --500
 
 
+##ETL Data Flow Process
+1. Run dataloader.py 
+2. Run webservices.py
+- data can be visualized by sending requests via postman or via browser url 
